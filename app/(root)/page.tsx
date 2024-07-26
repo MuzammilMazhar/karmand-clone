@@ -17,7 +17,7 @@ if (!isOpen){
   }, [isOpen,onOpen]);
   return (
 <div>
-Root Page
+Root Pages
 </div>
 
   );
