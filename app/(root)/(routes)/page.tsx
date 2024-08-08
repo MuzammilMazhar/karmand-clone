@@ -15,12 +15,7 @@ if (!isOpen){
   onOpen();
 }
   }, [isOpen,onOpen]);
-  return (
-<div>
-Root Pages
-</div>
-
-  );
+  return null;
 }
 
 

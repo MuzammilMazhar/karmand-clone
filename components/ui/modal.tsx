@@ -29,7 +29,7 @@ const onChange = (open: boolean) => {
 };
 return(
     <Dialog open={isOpen} onOpenChange={onChange}>
-<DialogContent>
+<DialogContent >
     <DialogHeader>
         <DialogTitle>{title}</DialogTitle>
         <DialogDescription>{description}</DialogDescription>
